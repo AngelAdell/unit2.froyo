@@ -29,11 +29,11 @@ Pseudocode:
 
 HTML:
 - <ul id="flavorsList">
-  - <li>Flavor 1<button class="addButton">Add</button></li>
-  - <li>Flavor 2<button class="addButton">Add</button></li>
+  - <li>Vanilla<button class="addButton">Add</button></li>
+  - <li>Chocolate<button class="addButton">Add</button></li>
   - ...
 - </ul>
-- <button id="startOverButton">Start Over</button>
+- <button id="startOver">Start Over</button>
 
 JS:
 - Create array: flavors = []
@@ -44,6 +44,8 @@ JS:
     - Log flavor text to the console.
     - Add flavor text to the flavors array.
     - Update display to show the flavors array.
+
+    - Decided to add a for loop that iterattes the class name of buttons to give and assign them to the array.
 
 - Get startOverButton element.
 - Add click event listener:
